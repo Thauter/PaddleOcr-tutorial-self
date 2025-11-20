@@ -4,6 +4,8 @@
 
 This guide will walk you through the purpose of each file in a relaxed, handwritten-note style.
 
+## <img src="./preview/Preview_allres_log.png" width="25%"><img src="./preview/Previewjsonoutput.png" width="25%"><img src="./preview/previewlog.png" width="25%"><img src="./preview/Previewmd_output.png" width="25%">
+
 ---
 
 ## ⚙️ Setup
@@ -21,7 +23,7 @@ Open your terminal and paste the following command:
 For Apple Silicon CPU:
 
 ```bash
-docker run --rm --name paddleocr-vllm  --ipc=host --shm-size=13g -p 8111:8111 thauter/paddleocr-vl-vllm:cpu
+docker run --rm --name paddleocr-vllm  --ipc=host --shm-size=13g -p 8111:8555 thauter/paddleocr-vl-vllm:cpu
 ```
 
 For GPU #cuda:
