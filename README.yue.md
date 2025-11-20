@@ -6,6 +6,8 @@
 
 ## <img src="./preview/Preview_allres_log.png" width="25%"><img src="./preview/Previewjsonoutput.png" width="25%"><img src="./preview/previewlog.png" width="25%"><img src="./preview/Previewmd_output.png" width="25%">
 
+<img src="./preview/Previewdt.png" width="50%"><img src="./preview/Previewodt.png" width="50%">
+
 ## ⚙️ 事前準備 (Setup)
 
 喺你開始運行任何腳本之前，要先搞掂兩樣嘢：啟動後端嘅 AI 模型伺服器，同埋設定好你嘅 Python 環境。
