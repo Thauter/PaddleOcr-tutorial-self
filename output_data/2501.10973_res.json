@@ -1,0 +1,502 @@
+{
+    "input_path": "images/2501.10973.png",
+    "page_index": null,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": false,
+        "format_block_content": false
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "doc_title",
+            "block_content": "Improved limits on the spin- and velocity-dependent exotic interaction in the micrometer range",
+            "block_bbox": [
+                61,
+                19,
+                930,
+                82
+            ],
+            "block_id": 0,
+            "block_order": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "Sumin Li, $ ^{1,*} $  Wenbo Zhang, $ ^{1,*} $  Rui Luo, $ ^{1} $  Jinquan Liu, $ ^{1} $  and Pengshun Luo $ ^{1,\\dagger} $ ",
+            "block_bbox": [
+                166,
+                101,
+                832,
+                131
+            ],
+            "block_id": 1,
+            "block_order": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": " $ ^{1} $ National Gravitation Laboratory, MOE Key Laboratory of Fundamental Physical Quantities Measurement, and School of Physics, Huazhong University of Science and Technology, Wuhan 430074, People's Republic of China (Dated: January 22, 2025)",
+            "block_bbox": [
+                56,
+                132,
+                943,
+                198
+            ],
+            "block_id": 2,
+            "block_order": 3
+        },
+        {
+            "block_label": "abstract",
+            "block_content": "Searching for the exotic interactions beyond the Standard Model of particle physics may solve some of the current puzzles in physics. Here the authors experimentally explore a spin- and velocity-dependent exotic interaction between the nucleons in a gold sphere and the electrons in a spin source in the micrometer range. The microfabricated spin source provides periodically varying spin density of electrons, resulting in a periodic exotic field. A cantilever glued with a gold sphere is used to measure the force acting on the gold sphere by the spin source. The spin source is driven to oscillate, and then the imaginary part of the signal is extracted at the 10th harmonic of the oscillation frequency, which effectively separates the exotic interaction from the spurious forces commonly present in such short-range measurements. No signal of the exotic interaction is observed, then new limits on the coupling constant are set in an interaction range below  $ 10\\ \\mum $ , with  $ f_{4+5} \\leq 2.2 \\times 10^{-9} $  at  $ 2.1\\ \\mum $ .",
+            "block_bbox": [
+                127,
+                209,
+                875,
+                431
+            ],
+            "block_id": 3,
+            "block_order": 4
+        },
+        {
+            "block_label": "text",
+            "block_content": "PACS numbers: 04.80.Cc",
+            "block_bbox": [
+                133,
+                447,
+                311,
+                466
+            ],
+            "block_id": 4,
+            "block_order": 5
+        },
+        {
+            "block_label": "text",
+            "block_content": "The Standard Model of particle physics (SM) stands as one of the most successful theories, describing the known fundamental particles and interactions other than gravity. Despite its triumphs, there remain several phenomena that lie beyond the scope of the SM, hinting at the existence of additional forces or particles that may weakly interact with the known constituents of matter. Some bosons, including axions $$ 1-3 $$ , majorons $$ 4 $$ , familons $$ 5, 6 $$ , paraphotons $$ 7, 8 $$ , and  $ Z^{\\prime} $  bosons $$ 9, 10 $$ , have been proposed in various extensions of SM. Some of them may be candidates for dark matter $$ 11-16 $$ , so it is particularly interesting and important to search for them. These hypothetical bosons may mediate exotic interactions $$ 17-19 $$ , making it possible to search for them through the so-called fifth-force experiments $$ 20 $$ . In the general framework of quantum field theory, various interaction potentials are derived and classified according to either the spin-momentum forms or the types of physical couplings $$ 18-20 $$ .",
+            "block_bbox": [
+                29,
+                498,
+                488,
+                894
+            ],
+            "block_id": 5,
+            "block_order": 6
+        },
+        {
+            "block_label": "text",
+            "block_content": "In this letter, we present an experimental search for one of the interactions between electrons and nucleons described by",
+            "block_bbox": [
+                33,
+                893,
+                486,
+                956
+            ],
+            "block_id": 6,
+            "block_order": 7
+        },
+        {
+            "block_label": "display_formula",
+            "block_content": " $$ V(r)=-f_{4+5}\\frac{\\hbar^{2}}{8\\pi m_{e}c}[\\hat{\\sigma}\\cdot(\\vec{v}\\times\\hat{r})](\\frac{1}{\\lambda r}+\\frac{1}{r^{2}})e^{-r/\\lambda}, $$ ",
+            "block_bbox": [
+                57,
+                971,
+                445,
+                1017
+            ],
+            "block_id": 7,
+            "block_order": 8
+        },
+        {
+            "block_label": "formula_number",
+            "block_content": "(1)",
+            "block_bbox": [
+                459,
+                984,
+                482,
+                1005
+            ],
+            "block_id": 8,
+            "block_order": null
+        },
+        {
+            "block_label": "text",
+            "block_content": "where $m_{e}$ and $\\hat{\\sigma}$ are the mass and the spin unit vector of the electron, respectively; $\\vec{v}$ is the relative velocity between the electron and nucleon, and $r$ is the distance between them; $\\lambda=\\hbar/m_{b}c$ is the interaction range with $m_{b}$ being the mass of the exchanged bosons, and $f_{4+5}$ is the coupling constant; $\\hbar$ is the reduced Planck constant, and $c$ is the speed of light in vacuum. The interaction can be mediated by massive spin-1 bosons $Z'$ in the nonrelativistic limit, as described by the Lagrangian $\\mathcal{L}_{Z'} = Z'_{\\mu} \\sum_{\\psi} \\bar{\\psi} \\gamma^{\\mu} (g_{V}^{\\psi} + \\gamma_{5} g_{A}^{\\psi}) \\psi$. Here $\\psi$ denotes the fermion field, and $f_{4+5}$ is equal to $\\frac{1}{2} g_{V}^{e} g_{V}^{N}[18, 19]$. Such interaction can also be generated by exchanging spin-0 bosons where $f_{4+5}$ is equal to $\\frac{1}{2} g_{s}^{e} g_{s}^{N}$.",
+            "block_bbox": [
+                37,
+                1031,
+                486,
+                1235
+            ],
+            "block_id": 9,
+            "block_order": 9
+        },
+        {
+            "block_label": "text",
+            "block_content": "",
+            "block_bbox": [
+                511,
+                495,
+                968,
+                564
+            ],
+            "block_id": 10,
+            "block_order": 10
+        },
+        {
+            "block_label": "text",
+            "block_content": "Various precision measurement technologies have been applied to search for this type of interaction $$ 21-32 $$ . Although no traces of the new interaction have been observed so far, increasingly stringent constraints have been imposed on its strength. For the range above 100 m, Clayburn and Hunter set the strictest bounds by reanalyzing the data from the torsion-pendulum experiment using the Earth as a rotating unpolarized source $$ 26, 27 $$ . In the range of around 0.1 m, the most stringent constraints are imposed by atomic magnetometer experiments $$ 27-29 $$ . In the micrometer range, we had performed an experiment to set the strongest limits on the interaction using a cantilever force sensor and an oscillating spin-modulated source $$ 32 $$ . These constraints were improved by a recent experiment using solid-state spin sensors $$ 30, 31 $$ . In this work, the constraints are further strengthened through several key experimental improvements.",
+            "block_bbox": [
+                509,
+                569,
+                967,
+                943
+            ],
+            "block_id": 11,
+            "block_order": 11
+        },
+        {
+            "block_label": "text",
+            "block_content": "The experimental scheme is similar to that previously reported $ ^{[32]} $ . As shown in Fig. 1(a), a soft cantilever is used to measure the force in the near-vertical direction between an unpolarized gold microsphere and a spatially modulated spin source. The signal of interest is modulated to a higher harmonic by applying a cosine voltage  $ (V_{d}) $  to the piezoelectric stage to drive the source oscillating. A fiber optic interferometer is used to measure the deflection of the cantilever and then derive the force. The signal is demodulated numerically to obtain the real (Re) and imaginary (Im) parts at a specific harmonic using the displacement of the source as a phase reference. The oscillation of the source is monitored simultaneously with another fiber optic interferometer, as well as the",
+            "block_bbox": [
+                507,
+                949,
+                962,
+                1238
+            ],
+            "block_id": 12,
+            "block_order": 12
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": true,
+            "use_doc_unwarping": true
+        },
+        "angle": 0
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 6,
+                "label": "doc_title",
+                "score": 0.9641985297203064,
+                "coordinate": [
+                    61.734222412109375,
+                    19.651479721069336,
+                    930.1116943359375,
+                    82.49835968017578
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9368395805358887,
+                "coordinate": [
+                    166.10971069335938,
+                    101.42567443847656,
+                    832.8045654296875,
+                    131.79641723632812
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9614388942718506,
+                "coordinate": [
+                    56.710479736328125,
+                    132.11366271972656,
+                    943.5513916015625,
+                    198.79368591308594
+                ]
+            },
+            {
+                "cls_id": 0,
+                "label": "abstract",
+                "score": 0.9868213534355164,
+                "coordinate": [
+                    127.16128540039062,
+                    209.10971069335938,
+                    875.81298828125,
+                    431.6412658691406
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9157977104187012,
+                "coordinate": [
+                    174.67117309570312,
+                    408.37908935546875,
+                    307.88739013671875,
+                    430.36602783203125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9176275730133057,
+                "coordinate": [
+                    133.6055908203125,
+                    447.33026123046875,
+                    311.67218017578125,
+                    466.0738525390625
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9889090657234192,
+                "coordinate": [
+                    29.62060546875,
+                    498.13922119140625,
+                    488.53790283203125,
+                    894.1661987304688
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.4595889151096344,
+                "coordinate": [
+                    347.550537109375,
+                    666.8196411132812,
+                    370.37353515625,
+                    686.2998657226562
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9772452712059021,
+                "coordinate": [
+                    33.7021484375,
+                    893.81689453125,
+                    486.74114990234375,
+                    956.1005859375
+                ]
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9689422845840454,
+                "coordinate": [
+                    57.11512756347656,
+                    971.3494873046875,
+                    445.09716796875,
+                    1017.9315185546875
+                ]
+            },
+            {
+                "cls_id": 11,
+                "label": "formula_number",
+                "score": 0.9024322032928467,
+                "coordinate": [
+                    459.7740478515625,
+                    984.54150390625,
+                    482.86962890625,
+                    1005.792236328125
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7842305302619934,
+                "coordinate": [
+                    95.48631286621094,
+                    1035.854736328125,
+                    121.49583435058594,
+                    1051.689697265625
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6187521815299988,
+                "coordinate": [
+                    161.6414794921875,
+                    1033.4102783203125,
+                    178.02301025390625,
+                    1050.9117431640625
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.42895200848579407,
+                "coordinate": [
+                    345.0091857910156,
+                    1074.0126953125,
+                    361.2740783691406,
+                    1091.44091796875
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7364786863327026,
+                "coordinate": [
+                    513.792724609375,
+                    1071.25927734375,
+                    546.6629638671875,
+                    1091.7548828125
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.49548014998435974,
+                "coordinate": [
+                    42.16357421875,
+                    1116.3046875,
+                    70.7353744506836,
+                    1133.017578125
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8684860467910767,
+                "coordinate": [
+                    166.37689208984375,
+                    1093.9630126953125,
+                    254.1424560546875,
+                    1113.4490966796875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9871038794517517,
+                "coordinate": [
+                    37.81231689453125,
+                    1031.5185546875,
+                    486.36187744140625,
+                    1235.7509765625
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8418808579444885,
+                "coordinate": [
+                    446.57855224609375,
+                    1112.634033203125,
+                    481.44696044921875,
+                    1132.637939453125
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7613378167152405,
+                "coordinate": [
+                    440.0110168457031,
+                    1169.25244140625,
+                    461.7294616699219,
+                    1187.321533203125
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9457316994667053,
+                "coordinate": [
+                    43.72804260253906,
+                    1209.5999755859375,
+                    308.4185791015625,
+                    1234.0789794921875
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5699999928474426,
+                "coordinate": [
+                    368.95159912109375,
+                    1210.620849609375,
+                    386.97515869140625,
+                    1229.158935546875
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9785963296890259,
+                "coordinate": [
+                    511.658447265625,
+                    495.4737243652344,
+                    968.7750244140625,
+                    564.4754638671875
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8528752326965332,
+                "coordinate": [
+                    664.2882080078125,
+                    500.60137939453125,
+                    701.1055908203125,
+                    520.3103637695312
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8044639825820923,
+                "coordinate": [
+                    796.8050537109375,
+                    495.48321533203125,
+                    911.500244140625,
+                    519.5877685546875
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8251111507415771,
+                "coordinate": [
+                    627.5001220703125,
+                    542.2086181640625,
+                    665.6329345703125,
+                    562.543701171875
+                ]
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9098924398422241,
+                "coordinate": [
+                    756.8228759765625,
+                    537.7606201171875,
+                    809.6866455078125,
+                    562.9503173828125
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.988620400428772,
+                "coordinate": [
+                    509.3900146484375,
+                    569.1370239257812,
+                    967.3646240234375,
+                    943.3619995117188
+                ]
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9886701107025146,
+                "coordinate": [
+                    507.26324462890625,
+                    949.38720703125,
+                    962.0095825195312,
+                    1238.451171875
+                ]
+            }
+        ]
+    }
+}

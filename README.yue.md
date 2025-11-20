@@ -4,6 +4,10 @@
 
 呢份教學會用一個比較輕鬆、似手寫筆記嘅方式，帶你了解每個檔案嘅用途
 
+<img src="./preview/Preview_allres_log.png" width="25%">
+<img src="./preview/Previewjsonoutput.png" width="25%">
+<img src="./preview/previewlog.png" width="25%">
+<img src="./preview/Previewmd_output.png" width="25%">
 ---
 
 ## ⚙️ 事前準備 (Setup)
